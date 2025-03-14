@@ -96,3 +96,29 @@ position: absolute;
 display: flex;
 flex-direction: column;
 }
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 80%;
+  width: 80%;
+  background-color: #eeeeee;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.small {
+  grid-column: span 4;
+  background-color: #dafdaf;
+}
+.medium {
+  grid-column: span 8;
+  background-color: #daedae;
+}
+.large {
+  grid-column: span 12;
+  background-color: #dbfdbd;
+}
