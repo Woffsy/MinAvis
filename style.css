@@ -66,3 +66,33 @@ h6 {
 #__next {
   isolation: isolate;
 }
+* {
+  text-decoration: none;
+}
+nav {
+background-color: aliceblue;
+display: flex;
+width: 100%;
+justify-content: space-between;
+
+}
+nav a,
+nav button {
+background-color: aliceblue;
+border: none;
+color: darkblue;
+font-size: 30px;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+}
+
+.dropdown:hover .dropdown-content {
+display: flex;
+flex-direction: column;
+}
